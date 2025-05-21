@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "阿忠花枝羹",
+    "category": "小吃",
+    "description": "招牌花枝羹，新鮮海味 Q 彈十足。",
+    "location": "通化夜市中段",
+    "lat": 25.033,
+    "lng": 121.56,
+    "image": "https://example.com/images/stall1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "麗珠滷味",
+    "category": "滷味",
+    "description": "老字號滷味，滷汁入味、配料豐富。",
+    "location": "通化夜市入口",
+    "lat": 25.0328,
+    "lng": 121.5598,
+    "image": "https://example.com/images/stall2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "兄弟蚵仔煎",
+    "category": "台式料理",
+    "description": "經典蚵仔煎搭配獨門醬汁。",
+    "location": "通化街靠近臨江街",
+    "lat": 25.0332,
+    "lng": 121.5602,
+    "image": "https://example.com/images/stall3.jpg"
+  }
+]
