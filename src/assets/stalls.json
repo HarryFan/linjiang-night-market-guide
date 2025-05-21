@@ -1,32 +1,143 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "阿忠花枝羹",
-    "category": "小吃",
-    "description": "招牌花枝羹，新鮮海味 Q 彈十足。",
-    "location": "通化夜市中段",
-    "lat": 25.033,
-    "lng": 121.56,
-    "image": "https://example.com/images/stall1.jpg"
+    "description": "招牌花枝羹，新鮮海味 Q 彈十足，使用嚴選新鮮花枝，口感Q彈，湯頭濃郁。",
+    "category": "snack",
+    "image": "/images/stall1.jpg",
+    "openHours": "17:00-00:00，週二公休",
+    "location": {
+      "lat": 25.033,
+      "lng": 121.56
+    },
+    "address": "通化街與基隆路交叉口",
+    "area": "middle",
+    "tags": ["花枝羹", "海鮮", "湯品"],
+    "rating": 4.5,
+    "recommendedItems": [
+      {
+        "name": "綜合花枝羹",
+        "price": "NT$80",
+        "description": "花枝、魚丸、蝦仁等海鮮綜合大碗"
+      },
+      {
+        "name": "蚵仔花枝羹",
+        "price": "NT$90"
+      }
+    ],
+    "contactInfo": "0912-345-678"
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "麗珠滷味",
-    "category": "滷味",
-    "description": "老字號滷味，滷汁入味、配料豐富。",
-    "location": "通化夜市入口",
-    "lat": 25.0328,
-    "lng": 121.5598,
-    "image": "https://example.com/images/stall2.jpg"
+    "description": "老字號滷味，滷汁入味、配料豐富，使用多種中藥與香料滷製，香氣撲鼻，入味不死鹹。",
+    "category": "snack",
+    "image": "/images/stall2.jpg",
+    "openHours": "16:00-01:00，全年無休",
+    "location": {
+      "lat": 25.0328,
+      "lng": 121.5598
+    },
+    "address": "通化街入口第一攤",
+    "area": "entrance",
+    "tags": ["滷味", "下酒菜", "宵夜"],
+    "rating": 4.7,
+    "recommendedItems": [
+      {
+        "name": "綜合滷味拼盤",
+        "price": "NT$150~300",
+        "description": "依選購品項計價"
+      },
+      {
+        "name": "滷豆干",
+        "price": "NT$30"
+      },
+      {
+        "name": "滷雞翅",
+        "price": "NT$60/隻"
+      }
+    ]
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "兄弟蚵仔煎",
-    "category": "台式料理",
-    "description": "經典蚵仔煎搭配獨門醬汁。",
-    "location": "通化街靠近臨江街",
-    "lat": 25.0332,
-    "lng": 121.5602,
-    "image": "https://example.com/images/stall3.jpg"
+    "description": "經典蚵仔煎搭配獨門醬汁，蚵仔新鮮肥美，麵糊調配得恰到好處，外酥內軟。",
+    "category": "specialty",
+    "image": "/images/stall3.jpg",
+    "openHours": "17:30-00:30，週三公休",
+    "location": {
+      "lat": 25.0332,
+      "lng": 121.5602
+    },
+    "address": "通化街靠近臨江街",
+    "area": "end",
+    "tags": ["蚵仔煎", "台式小吃", "海鮮"],
+    "rating": 4.3,
+    "recommendedItems": [
+      {
+        "name": "招牌蚵仔煎",
+        "price": "NT$90",
+        "description": "新鮮蚵仔加上特調醬料"
+      },
+      {
+        "name": "蝦仔煎",
+        "price": "NT$100"
+      }
+    ],
+    "contactInfo": "0923-456-789"
+  },
+  {
+    "id": "4",
+    "name": "阿宗芒果冰",
+    "description": "使用嚴選愛文芒果製作，芒果新鮮香甜，冰品滑順，配料豐富。",
+    "category": "dessert",
+    "image": "/images/stall4.jpg",
+    "openHours": "14:00-23:00，週一公休",
+    "location": {
+      "lat": 25.0326,
+      "lng": 121.5605
+    },
+    "address": "通化街中段",
+    "area": "middle",
+    "tags": ["芒果冰", "甜品", "水果"],
+    "rating": 4.8,
+    "recommendedItems": [
+      {
+        "name": "招牌芒果冰",
+        "price": "NT$120",
+        "description": "整顆芒果切塊，搭配特調煉乳"
+      },
+      {
+        "name": "綜合水果冰",
+        "price": "NT$150"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "清心福全",
+    "description": "人氣連鎖手搖飲料店，飲品種類豐富，使用優質茶葉。",
+    "category": "drink",
+    "image": "/images/stall5.jpg",
+    "openHours": "10:00-22:00，全年無休",
+    "location": {
+      "lat": 25.0325,
+      "lng": 121.5610
+    },
+    "address": "通化街轉角店面",
+    "area": "entrance",
+    "tags": ["手搖飲", "珍珠奶茶", "水果茶"],
+    "rating": 4.2,
+    "recommendedItems": [
+      {
+        "name": "珍珠奶茶",
+        "price": "NT$60"
+      },
+      {
+        "name": "檸檬綠",
+        "price": "NT$45"
+      }
+    ],
+    "contactInfo": "02-2731-xxxx"
   }
 ]
