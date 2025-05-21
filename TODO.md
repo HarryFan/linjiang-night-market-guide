@@ -2,22 +2,49 @@
 # 通化夜市導覽平台 - TODO List
 ## 專案初始化
 
-- [ ] 使用 Vite 建立 Vue3 + TypeScript 專案
-- [ ] 安裝必要套件：Vant、Element Plus、Pinia、Vue Router
+- [x] 使用 Vite 建立 Vue3 + TypeScript 專案
+- [x] 安裝必要套件：Vant、Element Plus、Pinia、Vue Router
+- [ ] 配置路由與狀態管理
+- [ ] 設置全局樣式與主題變量
 
 ## 裝置判斷與 Layout 切換
-- [ ] 建立 useDeviceLayout hook
-- [ ] 建立 MobileLayout.vue
-- [ ] 建立 TabletLayout.vue
-- [ ] 建立 DesktopLayout.vue
-- [ ] 建立 LargeLayout.vue
-- [ ] App.vue 中動態掛載 layout
+- [x] 建立 useDeviceLayout hook
+  - 實現斷點判斷邏輯
+  - 添加視窗大小變化監聽
+  - 提供響應式設備類型狀態
+- [x] 建立 MobileLayout.vue
+  - 實現底部 TabBar 導航
+  - 優化移動端觸摸體驗
+- [x] 建立 TabletLayout.vue
+  - 側邊欄與內容區域布局
+  - 適配平板特有交互
+- [x] 建立 DesktopLayout.vue
+  - 實現多列布局
+  - 優化大屏顯示效果
+- [x] 建立 LargeLayout.vue
+  - 支持更大視窗尺寸
+  - 添加更多內容展示區域
+- [x] App.vue 中動態掛載 layout
+  - 根據設備類型自動切換
+  - 添加布局切換動畫
 
 ## 基本頁面開發
 - [ ] Home.vue：入口介紹與推薦攤位
+  - 輪播展示特色攤位
+  - 分類導航功能
+  - 搜索功能整合
 - [ ] Map.vue：夜市地圖顯示（整合 API）
+  - 整合高德地圖 API
+  - 自定義地圖標記
+  - 路線規劃功能
 - [ ] FoodList.vue：攤位列表＋卡片顯示
+  - 分類篩選功能
+  - 價格排序功能
+  - 收藏功能
 - [ ] About.vue：關於本平台與資料來源
+  - 平台介紹
+  - 數據來源說明
+  - 意見反饋入口
 
 ## UI/UX 設計指南
 ### 模塊定義與設計規範
